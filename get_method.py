@@ -4,7 +4,7 @@ import time
 from selenium import webdriver
 
 # инициализируем драйвер браузера. После этой команды вы должны увидеть новое открытое окно браузера
-driver = webdriver.Chrome()
+driver = driver = webdriver.Chrome()
 
 # команда time.sleep устанавливает паузу в 5 секунд, чтобы мы успели увидеть, что происходит в браузере
 time.sleep(5)

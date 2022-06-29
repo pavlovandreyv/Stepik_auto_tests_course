@@ -1,0 +1,34 @@
+1653916717979	geckodriver	INFO	Listening on 127.0.0.1:53003
+1653916721026	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "53004" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\pali4\\AppData\\Local\\Temp\\rust_mozprofilemNX2Or"
+1653916752467	geckodriver	INFO	Listening on 127.0.0.1:59273
+1653916755549	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "59274" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\pali4\\AppData\\Local\\Temp\\rust_mozprofilesyOhsa"
+1653916755880	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\pali4\\AppData\\Local\\Temp\\rust_mozprofilesyOhsa\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:59274/devtools/browser/b4f22774-b2fa-4cf8-812e-1064f47818e9
+1653916757325	Marionette	INFO	Listening on port 59301
+Read port: 59301
+1653916757412	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://stepik.azureedge.net/static/frontend-build/vendor.js?v=1653073456, line 6289: unreachable code after return statement
+JavaScript warning: https://mc.yandex.ru/metrika/tag.js, line 17: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1653916765561	Marionette	INFO	Stopped listening on port 59301
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PHttpChannel::Msg_DeleteSelf) Channel closing: too late to send/recv, messages will be lost
+
+JavaScript error: chrome://remote/content/marionette/cert.js, line 55: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+1653918018766	geckodriver	INFO	Listening on 127.0.0.1:51267
+1653918021818	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "51268" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\pali4\\AppData\\Local\\Temp\\rust_mozprofilecGWIpZ"
+1653918022175	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\pali4\\AppData\\Local\\Temp\\rust_mozprofilecGWIpZ\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:51268/devtools/browser/bcda75bd-76a3-44cc-87f1-f845fcf6cdb1
+1653918023661	Marionette	INFO	Listening on port 51292
+Read port: 51292
+1653918023690	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://selenium1py.pythonanywhere.com/ru/, line 374: ReferenceError: oscar is not defined
+1653918025055	Marionette	INFO	Stopped listening on port 51292
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_DestroyBrowsingContextGroup) Closed channel: cannot send/recv
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Reply_DiscardBrowsingContext) Channel closing: too late to send/recv, messages will be lost
+
+[Parent 1548, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:725
